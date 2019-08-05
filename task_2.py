@@ -1,3 +1,3 @@
-def add(x,y):
-    return x + y
-print (add(5,7))
+add=[2,3,4,5]
+numbers_sum = sum(add)
+print(numbers_sum)
