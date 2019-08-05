@@ -1,4 +1,3 @@
-def adding_task(x,y):
-    print (x+y)
-
-adding_task(5,7)
+def add(x,y):
+    return x+y
+print (add(5,7))
