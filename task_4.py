@@ -1,4 +1,3 @@
-def area_of_triangle(b,h):
-    x = b*h
-    return x / 2
-print (area_of_triangle(4,6))
+def area_of_triangle(base,height):
+    return base * height / 2
+print (int(area_of_triangle(4,6)))
