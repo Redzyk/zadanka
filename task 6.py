@@ -1,3 +1,6 @@
-def square_area(a):
-    return a**2
-print(square_area(7))
+def rectangle_area(width,height):
+    if width == height:
+        return width**2
+    else:
+        return width * height
+print (rectangle_area(3,5))
